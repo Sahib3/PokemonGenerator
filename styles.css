@@ -1,0 +1,57 @@
+body {
+    font-family: 'Pokemon Solid', sans-serif;
+    background-image: url("background.png");
+}
+h1 {
+	margin-left: 650px;
+	color: rgba(255, 203, 5);
+}
+#generate {
+	margin-left: 800px;
+	padding:10px;
+    background-color:rgba(255, 209, 71, 0.8);
+    border:solid rgb(45,65,150) 1px;
+	font-family: 'Games', sans-serif;
+	font-size: 30px;
+	
+}
+
+#content {
+    background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 50px 0 0 800px;
+	padding: 20px;
+	text-align: center;
+    width: 130px;
+    height: 275px;
+	color: rgba(52, 102, 175);
+}
+
+#content #pokemon {
+    background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+#pokemon #poke-image {
+   margin-top: 5px;
+   max-width: 120px;
+
+}
+#pokemon #poke-id {
+    background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50px;
+    
+}
+
+#pokemon #name {
+    margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
